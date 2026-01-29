@@ -34,3 +34,4 @@ console.log("convert course string into an array:-",Student.course.split(","));
 
 // display the lenght of student name
 console.log("length of student name:-", Student.name.length);
+
