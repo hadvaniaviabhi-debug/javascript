@@ -55,10 +55,16 @@ console.log(" remove the frist hobies :-",Student.hobies);
 
 
 //merge hobies with course array
+console.log("merge hobies with course array:-",[...Student.hobies, ...Student.course.split(",")])
+
 
 //check if "react " exists in course array
+console.log(  Student.course.split(",").map(c => c.trim().toLowerCase()).includes("react")
+)
+
 
 // find index of "js" in course 
+console.log(" find index of js in course :-",Student.course.split(",").indexOf("js"))
 
 
 //extract  frist two mark
